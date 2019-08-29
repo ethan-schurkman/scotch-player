@@ -33,7 +33,7 @@ class Search extends React.Component{
                 <Autocomplete
                     ref="autocomplete"
                     inputProps={{title: "Title"}}
-                    value={this.props.autoCompleteValues}
+                    value={this.props.autoCompleteValue}
                     items={this.props.tracks}
                     getItemValue={(item) => item.title}
                     onSelect={this.props.handleSelect}

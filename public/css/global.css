@@ -47,7 +47,7 @@
   .player .player__backward button, 
   .player .player__forward button{
     background: transparent;
-    border: 1px solid rgb(243, 139, 114);
+    border: 1px solid rgb(34, 20, 17);
     color: rgb(243, 139, 114);
     width: 75px;
     height: 75px;
